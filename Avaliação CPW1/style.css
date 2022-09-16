@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'bold';
+    src: url(/Fonts/PlayfairDisplay-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'italic';
+    src: url(/Fonts/PlayfairDisplay-Italic.ttf);
+}
+
+@font-face {
+    font-family: 'regular';
+    src: url(Fonts/PlayfairDisplay-Regular.ttf);
+}
+#Bolo{
+    font-family:'bold' ;
+    font-size: 250%;
+    color: white;
+}
+#Igredientes{
+    font-family: 'bold';
+    font-size: 200%;
+    color: lightblue;
+}
+#Preparo{
+    font-family: 'bold';
+    font-size: 200%;
+    color: lightcoral;
+}
+ul li{
+    font-family: 'italic';
+    list-style: square;
+    color:white
+}
+
+ol li{
+    font-family: 'regular';
+    list-style: lower-alpha;
+    color:white
+}
+
+body{
+    background-color: black;
+}

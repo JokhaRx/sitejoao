@@ -1,0 +1,97 @@
+
+body{
+    background-color: yellow;
+}
+#oval {
+    width: 800px;
+    height: 400px;
+    background: red;
+    border-radius: 400px / 200px;
+    text-indent: -20%;
+    position: absolute;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    margin: auto;
+    border: 40px   double  white ;
+}
+
+.content{
+    display: block;
+    text-align: center;
+}
+
+span{
+    display: inline-block;
+    font-size: 2.5em;
+}
+
+.content > span:nth-child(1){
+    -webkit-transform: translateX(-10px) translateY(140px) rotate(-12deg);
+    font-size: 170px;
+    font-weight: 900;
+    color: white;
+    text-indent: -20%;
+    position: absolute;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+}
+.content > span:nth-child(2){
+    -webkit-transform: translateX(90px) translateY(145px) rotate(-2deg);
+    font-size: 170px;
+    font-weight: 900;
+    color: white;
+    text-indent: -20%;
+    position: absolute;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+}
+.content > span:nth-child(3){
+    -webkit-transform: translateX(200px) translateY(180px) rotate(8deg);
+    font-size: 170px;
+    font-weight: 900;
+    color: white;
+    text-indent: -20%;
+    position: absolute;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+}
+.content > span:nth-child(4){
+    -webkit-transform: translateX(10px) translateY(410px) rotate(9deg);
+    font-size: 170px;
+    font-weight: 900;
+    color: white;
+    text-indent: -20%;
+    position: absolute;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+}
+.content > span:nth-child(5){
+    -webkit-transform: translateX(160px) translateY(395px) rotate(1deg);
+    font-size: 170px;
+    font-weight: 900;
+    color: white;
+    text-indent: -20%;
+    position: absolute;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+}
+.content > span:nth-child(6){
+    -webkit-transform: translateX(290px) translateY(375px) rotate(-6deg);
+    font-size: 170px;
+    font-weight: 900;
+    color: white;
+    text-indent: -20%;
+    position: absolute;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+}
+.content > span:nth-child(7){
+    -webkit-transform: translateX(420px) translateY(330px) rotate(-14deg);
+    font-size: 170px;
+    font-weight: 900;
+    color: white;
+    text-indent: -20%;
+    position: absolute;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+}

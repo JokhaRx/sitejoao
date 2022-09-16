@@ -1,0 +1,43 @@
+#paragrafo1{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#paragrafo2{
+    color: green;
+    text-align: right;
+}
+/* teste comentário*/
+.paraDireita{
+    text-align: right;
+}
+
+ul{
+    list-style-image: url(../img/ponto.png) ;
+    background-color: aquamarine;
+}
+
+ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: bisque;
+}
+ul li:first-child{
+    background-color: chocolate;
+}
+ul li:last-child{
+    background-color: hotpink ;
+}
+
+ol{
+    list-style-type: upper-roman;
+    background-color: beige;
+}
+
+ol li{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: blanchedalmond;
+}
+
+ol li:nth-child(even){
+    background-color: darkorange;
+}
